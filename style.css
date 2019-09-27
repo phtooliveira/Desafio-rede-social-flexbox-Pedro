@@ -1,0 +1,56 @@
+main {
+    border: 2px solid #e5e5e5;
+    display: flex;
+    background-color: #f2f2f2;
+    color: black;
+    height: 950px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+div {
+    display: flex;
+    border: 2px solid gray;
+    background-color: #ffffff;
+    height: 260px;
+    width: 500px;
+}
+
+.rodape {
+    display: flex;
+    position: relative;
+    top: 199px;
+    left: -369px;
+}
+
+article {
+    position: relative;
+    height: 150px;
+    width: 4000px;
+}
+
+button {
+    color: white;
+    height: 64px;
+    width: 68px;
+    display: flex;
+    position: relative;
+    border: none;
+    TOP: 183px;
+    left: -187px;
+    text-align: center;
+    background-color: #808080;
+}
+
+h2 {
+    position: relative;
+}
+
+.usuario {
+    position: relative;
+    top: 9px;
+}
+
+img {
+    margin: 2px;
+}
