@@ -1,56 +1,69 @@
-main {
-    border: 2px solid #e5e5e5;
-    display: flex;
-    background-color: #f2f2f2;
-    color: black;
-    height: 950px;
+body {
+    background-color: #F2F2F2;
     font-family: 'Raleway', sans-serif;
 
 }
 
-div {
+.main {
+    width: 80vw;
+    height: 95vh;
+    border: 1px solid #BDBDBD;
     display: flex;
-    border: 2px solid gray;
-    background-color: #ffffff;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.item {
+    width: 480px;
     height: 260px;
-    width: 500px;
-}
-
-.rodape {
+    background-color: #FFF;
+    border: 1px solid #BDBDBD;
+    margin: 20px;
+    padding: 10px;
     display: flex;
-    position: relative;
-    top: 199px;
-    left: -369px;
+
 }
 
-article {
+.item img {
     position: relative;
-    height: 150px;
-    width: 4000px;
+    bottom: -13px;
+    width: 160px;
+    height: 160px;
+
+}
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.contact img {
+    width: 35px;
+    position: relative;
+    top: -75px;
+
+
 }
 
 button {
-    color: white;
-    height: 64px;
-    width: 68px;
-    display: flex;
-    position: relative;
-    border: none;
-    TOP: 183px;
-    left: -187px;
-    text-align: center;
     background-color: #808080;
+    color: #FFF;
+    padding: 10px;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: #808080;
+    width: 120px;
+    text-align: center;
 }
 
-h2 {
+
+a {
     position: relative;
-}
-
-.usuario {
-    position: relative;
-    top: 9px;
-}
-
-img {
-    margin: 2px;
+    top: 49px;
+    padding: 0px 3px
 }
